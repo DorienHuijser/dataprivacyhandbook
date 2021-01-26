@@ -8,3 +8,4 @@ data-subjects-rights
 right-to-be-informed
 right-to-access
 right-to-erasure
+right-to-rectification
