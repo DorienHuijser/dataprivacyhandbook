@@ -2,6 +2,22 @@
 
 # The GDPR {#gdpr .unnumbered}
 
+
+```{r glossary}
+library(glossary)
+glossary_path("files/glossary.yml")
+glossary_popup("hover")
+glossary_style(color = "yellow", 
+               text_decoration = "underline",
+               def_bg = "#333",
+               def_color = "white")
+```
+
+This is a test to include the term `r glossary("alpha")` with a 
+definition from the `glossary.yml` file.
+
+`r glossary_table()`
+
 **This chapter will present the most important definitions, principles and rights 
 of data subjects outlined in the GDPR and how it applies to your research. Most 
 of the practical advice that we provide in this Handbook will be rooted in and 
